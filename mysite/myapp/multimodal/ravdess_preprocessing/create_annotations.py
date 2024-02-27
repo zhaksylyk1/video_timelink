@@ -1,35 +1,21 @@
 # -*- coding: utf-8 -*-
 
 import os
-root = '/Users/zhaksylyk/Desktop/RAVDESS/'
+root = '/Users/alikanafin/Desktop/em_video'
 
-n_folds=1
-folds = [[[0],[1],[2,3]]]
-for fold in range(n_folds):
-        fold_ids = folds[fold]
-        test_ids, val_ids, train_ids = fold_ids
-	
-        #annotation_file = 'annotations_croppad_fold'+str(fold+1)+'.txt'
-        annotation_file = 'annotations.txt'
-	
-        for i,actor in enumerate(os.listdir(root)):
-            for video in os.listdir(os.path.join(root, actor)):
-                if not video.endswith('.npy') or 'croppad' not in video:
-                    continue
-                label = str(int(video.split('-')[2]))
-		     
-                audio = '03' + video.split('_face')[0][2:] + '_croppad.wav'  
-                if i in train_ids:
-                   with open(annotation_file, 'a') as f:
-                       f.write(os.path.join(root,actor, video) + ';' + os.path.join(root,actor, audio) + ';' + label + ';training' + '\n')
-		
+#annotation_file = 'annotations_croppad_fold'+str(fold+1)+'.txt'
+annotation_file = 'annotations.txt'
 
-                elif i in val_ids:
-                    with open(annotation_file, 'a') as f:
-                        f.write(os.path.join(root, actor, video) + ';' + os.path.join(root,actor, audio) + ';'+ label + ';validation' + '\n')
-		
-                else:
-                    with open(annotation_file, 'a') as f:
-                        f.write(os.path.join(root, actor, video) + ';' + os.path.join(root,actor, audio) + ';'+ label + ';testing' + '\n')
-		
+for video in os.listdir(root):
+    if not video.endswith('.npy') or 'croppad' not in video:
+        continue
+    
+    audio = video.split('_face')[0] + '_croppad.wav'  
+    # print(str(audio))
+    with open(annotation_file, 'a') as f:
+        f.write(os.path.join(root, video) + ';' + os.path.join(root, audio) + ';'+ str(1) + ';testing' + '\n')
+
+
+
+
 

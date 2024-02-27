@@ -14,7 +14,7 @@ from moviepy.editor import VideoFileClip
 
 device = torch.device('cuda') if torch.cuda.is_available() else 'cpu'
 mtcnn = MTCNN(image_size=(720, 1280), device=device)
-root = '/Users/zhaksylyk/Desktop/em_video'
+root = '/Users/alikanafin/Desktop/em_video'
 target_time=3.6
 save_avi = True
 
@@ -106,7 +106,7 @@ def extract_fa():
                 if len(frames_to_select) > 0:
                     for i in range(len(frames_to_select)):
                         numpy_video.append(np.zeros((224,224,3), dtype=np.uint8))
-                np.save(os.path.join(root,filename[-4]+"_"+str(all_frames_to_select[cri])+'_facecroppad.npy'), np.array(numpy_video))
+                np.save(os.path.join(root,filename[:-4]+"_"+str(all_frames_to_select[cri])+'_facecroppad.npy'), np.array(numpy_video))
                 if len(numpy_video) != 15:
                     print('Error', root, filename)   
                     
@@ -114,6 +114,7 @@ def extract_fa():
                 
                 
 extract_fa()
+
                     
             
 
