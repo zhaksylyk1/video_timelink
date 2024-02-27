@@ -8,3 +8,4 @@ class Video(models.Model):
     video = models.FileField(upload_to='videos/')
     description = models.TextField(blank=True) 
     # Optionally, add more fields such as description, timestamps, etc.
+    

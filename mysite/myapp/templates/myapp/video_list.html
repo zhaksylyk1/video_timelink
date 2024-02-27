@@ -4,16 +4,20 @@
 <h2>Uploaded Videos</h2>
 {% for video in videos %}
     <div class="video-container">
-        <video id="video_{{ video.id }}" controls width="640" height="360">
+        <video id="video_{{ video.id }}" class="video-js" controls="controls" preload="auto" width="640" height="360" data-setup="{}">
             <source src="{{ video.video.url }}" type="video/mp4">
-            Your browser does not support HTML5 video.
+            <source src="MY_VIDEO.webm" type="video/webm" />
+            <p class="vjs-no-js">
+                {% comment %} To view this video please enable JavaScript, and consider upgrading to a
+                web browser that {% endcomment %}
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
         </video>
         <div>
-            <a href="#" onclick="document.getElementById('video_{{ video.id }}').currentTime = 10; return false;">Jump to 10s</a>
-            <a href="#" onclick="document.getElementById('video_{{ video.id }}').currentTime = 20; return false;">Jump to 20s</a>
-            <a href="#" onclick="document.getElementById('video_{{ video.id }}').currentTime = 30; return false;">Jump to 30s</a>
-        </div> 
-    
+            {% for label, seconds in time_points %}
+            <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-time="{{ seconds }}">{{ label }}</a>
+            {% endfor %}
+        </div>
         <form action="{% url 'delete_video' video.id %}" method="post">
             {% csrf_token %}
             <button type="submit" class="btn btn-danger">Delete</button>
@@ -21,4 +25,24 @@
     </div>
     <div id="description_{{ video.id }}">{{ video.description }}</div>
 {% endfor %}
+
+{% comment %} <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script> {% endcomment %}
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    const timeLinks = document.querySelectorAll('.time-link');
+    timeLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const videoId = this.getAttribute('data-video-id');
+            const time = this.getAttribute('data-time');
+            const video = document.getElementById(videoId);
+            video.currentTime = parseFloat(time);
+            video.play();
+            
+        });
+    });
+});
+</script>
+
 {% endblock %}
