@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-root = '/Users/alikanafin/Desktop/em_video'
+root = 'c:/Users/zhk27/OneDrive/Рабочий стол/em_video'
 
 #annotation_file = 'annotations_croppad_fold'+str(fold+1)+'.txt'
 annotation_file = 'annotations.txt'

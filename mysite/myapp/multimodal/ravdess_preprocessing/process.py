@@ -14,7 +14,7 @@ from moviepy.editor import VideoFileClip
 
 device = torch.device('cuda') if torch.cuda.is_available() else 'cpu'
 mtcnn = MTCNN(image_size=(720, 1280), device=device)
-root = '/Users/alikanafin/Desktop/em_video'
+root = 'c:/Users/zhk27/OneDrive/Рабочий стол/em_video'
 target_time=3.6
 save_avi = True
 

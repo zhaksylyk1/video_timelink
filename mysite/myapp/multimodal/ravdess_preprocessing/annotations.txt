@@ -1,96 +1,48 @@
-/Users/alikanafin/Desktop/em_video/._1156_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1156_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_981_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_981_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._946_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._946_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._176_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._176_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1401_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1401_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1611_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1611_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1506_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1506_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._666_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._666_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._806_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._806_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1016_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1016_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1541_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1541_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._841_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._841_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1646_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1646_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1051_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1051_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_316_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_316_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_351_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_351_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_141_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_141_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_106_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_106_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_876_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_876_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_211_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_211_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1051_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1051_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1646_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1646_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._526_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._526_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1541_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1541_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1016_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1016_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1506_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1506_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._561_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._561_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._911_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._911_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._491_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._491_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._771_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._771_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_456_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_456_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._736_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._736_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._631_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._631_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1611_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1611_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._596_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._596_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1401_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1401_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._421_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._421_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1156_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1156_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_701_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_701_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._386_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._386_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._281_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._281_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_246_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_246_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_36_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_36_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_71_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_71_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_526_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_526_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1331_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1331_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_561_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_561_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1121_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1121_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_911_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_911_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_771_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_771_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_491_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_491_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1226_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1226_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._456_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._456_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_736_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_736_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1261_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1261_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1366_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1366_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1086_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1086_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_631_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_631_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_596_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_596_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_421_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_421_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1191_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1191_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1296_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1296_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._701_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._701_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._71_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._71_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_386_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_386_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._36_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._36_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1576_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1576_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1471_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1471_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1436_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1436_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_281_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_281_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._246_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._246_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._981_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._981_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_946_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_946_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1296_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1296_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1191_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1191_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_176_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_176_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1086_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1086_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1366_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1366_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1261_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1261_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1226_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1226_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1121_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1121_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._1331_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._1331_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_666_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_666_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_806_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_806_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_841_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_841_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._316_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._316_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._351_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._351_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._141_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._141_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1436_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1436_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._106_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._106_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1471_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1471_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1576_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1576_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._876_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._876_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/._211_facecroppad.npy;/Users/alikanafin/Desktop/em_video/._211_croppad.wav;1;testing
-/Users/alikanafin/Desktop/em_video/temp_1_facecroppad.npy;/Users/alikanafin/Desktop/em_video/temp_1_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1016_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1016_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1051_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1051_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_106_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_106_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1086_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1086_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1121_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1121_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1156_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1156_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1191_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1191_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1226_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1226_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1261_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1261_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1296_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1296_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1331_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1331_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1366_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1366_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1401_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1401_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_141_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_141_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1436_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1436_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1471_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1471_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1506_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1506_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1541_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1541_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1576_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1576_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1611_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1611_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1646_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1646_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_176_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_176_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_1_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_211_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_211_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_246_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_246_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_281_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_281_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_316_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_316_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_351_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_351_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_36_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_36_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_386_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_386_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_421_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_421_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_456_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_456_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_491_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_491_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_526_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_526_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_561_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_561_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_596_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_596_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_631_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_631_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_666_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_666_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_701_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_701_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_71_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_71_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_736_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_736_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_771_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_771_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_806_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_806_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_841_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_841_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_876_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_876_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_911_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_911_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_946_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_946_croppad.wav;1;testing
+c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_981_facecroppad.npy;c:/Users/zhk27/OneDrive/Рабочий стол/em_video\2_981_croppad.wav;1;testing

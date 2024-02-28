@@ -13,12 +13,6 @@ from utils import calculate_accuracy
 import transforms 
 from torch.autograd import Variable
 
-opt = parse_opts()
-
-
-
-
-
 
 
 def video_loader(video_dir_path):
@@ -115,45 +109,66 @@ def get_test_set(opt, spatial_transform=None, audio_transform=None):
         spatial_transform=spatial_transform, data_type='audiovisual',audio_transform=audio_transform)
     return test_data
 
-video_transform = transforms.Compose([
-                transforms.ToTensor(255)])
-    
-test_data = get_test_set(opt, spatial_transform=video_transform) 
+def prediction():
 
-model = multimodalcnn.MultiModalCNN(opt.n_classes, fusion = opt.fusion, seq_length = opt.sample_duration, pretr_ef=opt.pretrain_path, num_heads=opt.num_heads)
-# model = model.to(opt.device)
-model = nn.DataParallel(model, device_ids=None)
-#model.load_state_dict(torch.load('d:/RAVDESS/RAVDESS_multimodalcnn_15_best0.pth'))
-best_state = torch.load('RAVDESS_multimodalcnn_15_checkpoint0.pth', map_location=torch.device('cpu'))
-model.load_state_dict(best_state['state_dict'])
-model.eval()
+    opt = parse_opts()
+
+    video_transform = transforms.Compose([
+                    transforms.ToTensor(255)])
+        
+    test_data = get_test_set(opt, spatial_transform=video_transform) 
+
+    model = multimodalcnn.MultiModalCNN(opt.n_classes, fusion = opt.fusion, seq_length = opt.sample_duration, pretr_ef=opt.pretrain_path, num_heads=opt.num_heads)
+    model = model.to(opt.device)
+    model = nn.DataParallel(model, device_ids=None)
+    #model.load_state_dict(torch.load('d:/RAVDESS/RAVDESS_multimodalcnn_15_best0.pth'))
+    best_state = torch.load('RAVDESS_multimodalcnn_15_checkpoint0.pth')
+    model.load_state_dict(best_state['state_dict'])
+    model.eval()
 
 
-predictions = []
+    predictions = []
 
-test_loader = torch.utils.data.DataLoader(
-    test_data,
-    batch_size=opt.batch_size,
-    shuffle=False,
-    num_workers=0,
-    pin_memory=True)
+    test_loader = torch.utils.data.DataLoader(
+        test_data,
+        batch_size=8,
+        shuffle=False,
+        num_workers=0,
+        pin_memory=True)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    ans=np.array([])
 
-for i, (inputs_audio, inputs_visual, targets) in enumerate(test_loader):
-    inputs_visual = inputs_visual.permute(0, 2, 1, 3, 4)
-    inputs_visual = inputs_visual.reshape(inputs_visual.shape[0] * inputs_visual.shape[1], inputs_visual.shape[2], inputs_visual.shape[3], inputs_visual.shape[4])
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    targets = targets.to(opt.device)
-    with torch.no_grad():
-        inputs_visual = inputs_visual.to(device)
-        inputs_audio = inputs_audio.to(device)
-        targets = targets.to(device)
-        outputs = model(inputs_audio, inputs_visual)
-        print(outputs)
-        _, preds = torch.max(outputs, 1)
-        print(preds)
-    
+    for i, (inputs_audio, inputs_visual, targets) in enumerate(test_loader):
+        inputs_visual = inputs_visual.permute(0, 2, 1, 3, 4)
+        inputs_visual = inputs_visual.reshape(inputs_visual.shape[0] * inputs_visual.shape[1], inputs_visual.shape[2], inputs_visual.shape[3], inputs_visual.shape[4])
 
-    
+        targets = targets.to(opt.device)
+        with torch.no_grad():
+            inputs_visual = inputs_visual.to(device)
+            inputs_audio = inputs_audio.to(device)
+            targets = targets.to(device)
+            outputs = model(inputs_audio, inputs_visual)
+            #print(outputs)
+            _, preds = torch.max(outputs, 1)
 
+            # print(preds)
+
+            ans=np.concatenate((ans,preds.cpu().numpy())) 
+
+
+
+    ans_list=ans.tolist()
+            
+    time=[]
+        
+    for i in range(len(ans_list)):
+        time.append(round(float((i*35+1)/30),2))
+
+    print(ans_list)
+    print(time)
+
+
+
+prediction()
