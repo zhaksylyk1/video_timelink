@@ -13,27 +13,28 @@
 {% else %}
 <h2>Prediction</h2>
     {% for video in videos %}
-        <div class="video-container" style="text-align:center;">
-            <video id="video_{{ video.id }}" class="video-js" controls="controls" preload="auto" width="960" height="640" data-setup="{}">
-                <source src="{{ video.video.url }}" type="video/mp4">
-                <source src="MY_VIDEO.webm" type="video/webm" />
-                <p class="vjs-no-js">
-                    {% comment %} To view this video please enable JavaScript, and consider upgrading to a
-                    web browser that {% endcomment %}
-                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                </p>
-            </video>
-            <div>
-                {% for label, start_time, end_time in time_points %}
-                <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-start-time="{{ start_time }}" data-end-time="{{ end_time }}">{{ label }}</a>
-                {% endfor %}
+        <div class="video-flex-container">
+            <div class="video-section">
+                <video id="video_{{ video.id }}" class="video-js" controls="controls" preload="auto" width="960" height="640" data-setup="{}">
+                    <source src="{{ video.video.url }}" type="video/mp4">
+                    <source src="MY_VIDEO.webm" type="video/webm" />
+                    <p class="vjs-no-js">
+                        {% comment %} To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that {% endcomment %}
+                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
             </div>
-            <form action="{% url 'delete_video' video.id %}" method="post">
-                {% csrf_token %}
-                <button type="submit" class="btn btn-danger">Delete</button>
-            </form>
-        </div>
-        <div id="description_{{ video.id }}">{{ video.description }}</div>
+            <div class="controls-section">
+                <form action="{% url 'delete_video' video.id %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+                    {% for label, start_time, end_time in time_points %}
+                    <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-start-time="{{ start_time }}" data-end-time="{{ end_time }}">{{ label }}</a>
+                    {% endfor %}
+                </div>
+            </div>   
     {% endfor %}
 {% endif %}
 
