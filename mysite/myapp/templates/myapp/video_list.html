@@ -1,6 +1,15 @@
 {% extends 'myapp/base.html' %}
 
 {% block content %}
+
+
+<h2>Upload Video</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
 <h2>Uploaded Videos</h2>
 {% for video in videos %}
     <div class="video-container">
@@ -14,8 +23,8 @@
             </p>
         </video>
         <div>
-            {% for label, seconds in time_points %}
-            <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-time="{{ seconds }}">{{ label }}</a>
+            {% for label, start_time, end_time in time_points %}
+            <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-start-time="{{ start_time }}" data-end-time="{{ end_time }}">{{ label }}</a>
             {% endfor %}
         </div>
         <form action="{% url 'delete_video' video.id %}" method="post">
@@ -29,20 +38,34 @@
 {% comment %} <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script> {% endcomment %}
 
 <script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    const timeLinks = document.querySelectorAll('.time-link');
-    timeLinks.forEach(function(link) {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const videoId = this.getAttribute('data-video-id');
-            const time = this.getAttribute('data-time');
-            const video = document.getElementById(videoId);
-            video.currentTime = parseFloat(time);
-            video.play();
-            
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const timeLinks = document.querySelectorAll('.time-link');
+        timeLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const videoId = this.getAttribute('data-video-id');
+                const startTime = parseFloat(this.getAttribute('data-start-time'));
+                const endTime = parseFloat(this.getAttribute('data-end-time'));
+                const video = document.getElementById(videoId);
+                video.currentTime = startTime;
+                video.play();
+                
+                // Function to stop the video
+                function stopVideoAtEndTime() {
+                    if (video.currentTime >= endTime) {
+                        video.pause();
+                        video.removeEventListener('timeupdate', stopVideoAtEndTime); // Remove the event listener after stopping
+                    }
+                }
+    
+                // Remove any existing timeupdate listeners to avoid duplicates
+                video.removeEventListener('timeupdate', stopVideoAtEndTime);
+                
+                // Add a new timeupdate listener
+                video.addEventListener('timeupdate', stopVideoAtEndTime);
+            });
         });
     });
-});
 </script>
 
 {% endblock %}
