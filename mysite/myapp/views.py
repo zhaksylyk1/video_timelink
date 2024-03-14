@@ -22,7 +22,8 @@ def video_list(request):
         form = VideoForm()
     videos = Video.objects.all()  # Fetch all video objects from the database
     time_points = [('Intro', 10, 30), ('Middle', 30, 45), ('End', 45, 47)]
-    return render(request, 'myapp/video_list.html', {'videos': videos, 'time_points': time_points, 'form': form})
+    videos_exist = videos.exists()
+    return render(request, 'myapp/video_list.html', {'videos': videos, 'time_points': time_points, 'form': form, 'videos_exist': videos_exist})
 
 def delete_video(request, video_id):
     if request.method == 'POST':  # Ensure the request method is POST

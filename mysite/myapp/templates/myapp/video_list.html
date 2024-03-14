@@ -3,37 +3,39 @@
 {% block content %}
 
 
-<h2>Upload Video</h2>
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit" class="btn btn-primary">Upload</button>
-</form>
-
-<h2>Uploaded Videos</h2>
-{% for video in videos %}
-    <div class="video-container">
-        <video id="video_{{ video.id }}" class="video-js" controls="controls" preload="auto" width="640" height="360" data-setup="{}">
-            <source src="{{ video.video.url }}" type="video/mp4">
-            <source src="MY_VIDEO.webm" type="video/webm" />
-            <p class="vjs-no-js">
-                {% comment %} To view this video please enable JavaScript, and consider upgrading to a
-                web browser that {% endcomment %}
-                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-            </p>
-        </video>
-        <div>
-            {% for label, start_time, end_time in time_points %}
-            <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-start-time="{{ start_time }}" data-end-time="{{ end_time }}">{{ label }}</a>
-            {% endfor %}
+{% if not videos_exist %}
+    <h2>Upload Video</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+{% else %}
+<h2>Prediction</h2>
+    {% for video in videos %}
+        <div class="video-container" style="text-align:center;">
+            <video id="video_{{ video.id }}" class="video-js" controls="controls" preload="auto" width="960" height="640" data-setup="{}">
+                <source src="{{ video.video.url }}" type="video/mp4">
+                <source src="MY_VIDEO.webm" type="video/webm" />
+                <p class="vjs-no-js">
+                    {% comment %} To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that {% endcomment %}
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+            <div>
+                {% for label, start_time, end_time in time_points %}
+                <a href="#" class="time-link" data-video-id="video_{{ video.id }}" data-start-time="{{ start_time }}" data-end-time="{{ end_time }}">{{ label }}</a>
+                {% endfor %}
+            </div>
+            <form action="{% url 'delete_video' video.id %}" method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
         </div>
-        <form action="{% url 'delete_video' video.id %}" method="post">
-            {% csrf_token %}
-            <button type="submit" class="btn btn-danger">Delete</button>
-        </form>
-    </div>
-    <div id="description_{{ video.id }}">{{ video.description }}</div>
-{% endfor %}
+        <div id="description_{{ video.id }}">{{ video.description }}</div>
+    {% endfor %}
+{% endif %}
 
 {% comment %} <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script> {% endcomment %}
 
