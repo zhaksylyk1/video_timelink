@@ -9,3 +9,11 @@ class Video(models.Model):
     description = models.TextField(blank=True) 
     # Optionally, add more fields such as description, timestamps, etc.
     
+    def delete(self, *args, **kwargs):
+        # You have to prepare the path to your file
+        # Here we are using the 'path' attribute of the FileField
+        storage, path = self.video.storage, self.video.path
+        # Delete the model before the file
+        super().delete(*args, **kwargs)
+        # Delete the file after the model
+        storage.delete(path)
